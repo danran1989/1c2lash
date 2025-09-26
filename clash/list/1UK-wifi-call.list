@@ -1,0 +1,35 @@
+##---------------------------------------------------------------------##
+##根据文件添加giffgaff的域名和ip规则 使手机可以开启WiFicalling##
+##clash mate规则集 使之可以开启giffgaff的WiFicalling##
+##---------------------------------------------------------------------##
+# 地区检测
+DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
+# 沃达丰---------------------------------------------------------------##
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+##不知对错
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, entsrv-uk.vodafone.com
+DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com
+##---------------------------------------------------------------------##
+#giffgaff 的 Wi-Fi Calling # 到O2
+DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc010.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc010.mcc234.3gppnetwork.org
+##不知对错
+DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org
+##---------------------------------------------------------------------##
+#GIFFGAFF
+DOMAIN-SUFFIX,giffgaff.com # 确保giffgaff相关服务也能正常访问
+DOMAIN-SUFFIX,o2.co.uk # O2是giffgaff的母公司，可能也有相关域名
+#  沃达丰--------------------------------------------------------------##
+IP-CIDR,88.82.0.0/19
+# CMLinkUK EE----------------------------------------------------------##
+IP-CIDR,46.68.0.0/17
+# Giffgaff-------------------------------------------------------------##
+IP-CIDR,87.194.0.0/16
