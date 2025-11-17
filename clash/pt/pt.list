@@ -1,1 +1,35 @@
 
+#关键字匹配直连规则
+#  DOMAIN-KEYWORD为关键字模式
+#肉丝
+- DOMAIN-KEYWORD,rousi
+#车站
+- DOMAIN-KEYWORD,carpt
+#52PT
+- DOMAIN-KEYWORD,52pt
+#柠檬
+- DOMAIN-KEYWORD,lemonhd
+#高清视频
+- DOMAIN-KEYWORD,hdvideo
+#
+- DOMAIN-KEYWORD,hdvbits
+#红豆饭
+- DOMAIN-KEYWORD,hdfans
+#冬樱
+- DOMAIN-KEYWORD,wintersakura
+#朱雀
+- DOMAIN-KEYWORD,zhuque
+#咖啡
+- DOMAIN-KEYWORD,ptcafe
+#学校
+- DOMAIN-KEYWORD,btschool
+#海胆
+- DOMAIN-KEYWORD,haidan
+#1PTBA
+- DOMAIN-KEYWORD,1ptba
+#
+- DOMAIN-KEYWORD,hdfun
+#AFUN
+- DOMAIN-KEYWORD,ptlover
+#
+- DOMAIN-KEYWORD,ptfans
